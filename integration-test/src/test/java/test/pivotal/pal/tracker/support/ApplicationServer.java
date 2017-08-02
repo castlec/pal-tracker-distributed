@@ -37,6 +37,7 @@ public class ApplicationServer {
 
         start(envMapBuilder()
             .put("SPRING_DATASOURCE_URL", dbUrl)
+            .put("registration.server.endpoint", "http://localhost:8883")
             .build()
         );
     }
