@@ -8,3 +8,4 @@ applications:
     TRUST_CERTS: FILL_ME_IN
   services:
   - tracker-amqp
+  - tracker-config-server
